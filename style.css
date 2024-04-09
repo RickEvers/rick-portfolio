@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #bc7fcd;
+  display: flex;
+  justify-content: center;
+}
+
+.header-card {
+  display: grid;
+  background-color: #ffcdea;
+  width: 75%;
+  justify-items: center;
+  padding: 2rem 0;
+  margin: 1rem 0;
+  border: 2px solid #fb9ad1;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+h2,
+h1,
+h3,
+p {
+  color: #86469c;
+  margin: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #ffcdea;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: 20px 0px;
+}
+
+img.Barkie {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  border: 5px solid #86469c;
+  margin: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  img.Barkie {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+.hero-section p {
+  text-align: center;
+  padding: 1rem;
+  border: 2px solid #fb9ad1;
+  border-radius: 25px;
+}
+
+hr {
+  border: dotted #bc7fcd 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: 20px 0px;
+}
+
+.skill-card {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 50%;
+  margin-bottom: 20px;
+  background-color: #fb9ad1;
+  padding: 1rem;
+  border: 2px solid #bc7fcd;
+  border-radius: 25px;
+}
+
+.coding {
+  width: 60%;
+}
+
+.code {
+  align-self: center;
+  width: 30%;
+}
+
+.soccer-ball {
+  align-self: center;
+  width: 30%;
+}
+
+.soccer {
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-card {
+    width: 90%;
+  }
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: 20px 0px;
+  border: 2px solid #fb9ad1;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.button {
+  background: #fb9ad1;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #bc7fcd;
+  color: #86469c;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #ffcdea;
+}
+
+footer {
+  background-color: #fb9ad1;
+  color: #86469c;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
